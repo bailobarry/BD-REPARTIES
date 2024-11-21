@@ -1,0 +1,99 @@
+
+Elément Package GEST_JO compilé
+
+
+Elément Package Body GEST_JO compilé
+
+Pays #FRA# : France
+* ARC  Archery
+     2  Women's Individual              1
+     3  Men's Team                      1
+* ATH  Athletics
+    54  Women's 100m Hurdles            1
+* BKB  Basketball
+    75  Men                             1
+    76  Women                           1
+* BKG  Breaking
+    94  B-Boys                          1
+* BK3  Basketball 3x3
+    77  Men                             1
+* BMF  Cycling BMX Freestyle
+   113  Men's Park                      1
+* BMX  Cycling BMX Racing
+   115  Men                             3
+* BOX  Boxing
+    81  Men's 51kg                      1
+    83  Men's 63.5kg                    1
+    87  Men's +92kg                     1
+* CRD  Cycling Road
+   118  Men's Road Race                 2
+* CSL  Canoe Slalom
+    96  Men's Kayak Single              1
+    98  Men's Canoe Single              1
+   101  Women's Kayak Cross             1
+* CTR  Cycling Track
+   126  Men's Omnium                    1
+* EQU  Equestrian
+   142  Eventing Team                   1
+   146  Jumping Team                    1
+* FBL  Football
+   160  Men                             1
+* FEN  Fencing
+   148  Women's Épée Individual         1
+   150  Women's Sabre Individual        2
+   151  Men's Épée Individual           1
+   154  Women's Épée Team               1
+   158  Men's Foil Team                 1
+   159  Men's Sabre Team                1
+* HBL  Handball
+   165  Women                           1
+* JUD  Judo
+   168  Women -48 kg                    1
+   169  Women -52 kg                    1
+   170  Women -57 kg                    1
+   171  Women -63 kg                    1
+   174  Women +78 kg                    1
+   175  Men -60 kg                      1
+   177  Men -73 kg                      1
+   179  Men -90 kg                      1
+   181  Men +100 kg                     1
+   182  Mixed Team                      1
+* MPN  Modern Pentathlon
+   185  Women's Individual              1
+* MTB  Cycling Mountain Bike
+   116  Men's Cross-country             1
+   117  Women's Cross-country           1
+* RU7  Rugby Sevens
+   203  Men                             1
+* SAL  Sailing
+   210  Women's Kite                    1
+   212  Women's Skiff                   1
+* SHO  Shooting
+   224  25m Pistol Women                1
+* SRF  Surfing
+   238  Men                             1
+   239  Women                           1
+* SWM  Swimming
+   245  Women's 1500m Freestyle         1
+   257  Men's 50m Freestyle             1
+   266  Men's 200m Breaststroke         1
+   268  Men's 200m Butterfly            1
+   269  Men's 200m Individual Medley    1
+   270  Men's 400m Individual Medley    1
+   273  Men's 4 x 100m Medley Relay     1
+* TKW  Taekwondo
+   280  Men -58kg                       1
+   287  Women +67kg                     1
+* TRI  Triathlon
+   295  Women's Individual              1
+   296  Men's Individual                1
+* TTE  Table Tennis
+   275  Men's Singles                   1
+   278  Men's Team                      1
+* VVO  Volleyball
+   298  Men                             1
+Nombre total de médailles : 64
+
+
+Procédure PL/SQL terminée.
+
