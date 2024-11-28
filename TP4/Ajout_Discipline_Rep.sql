@@ -28,10 +28,10 @@ CREATE OR REPLACE PACKAGE BODY Gestion_JO_Rep IS
         SELECT SEQ_DISCIPLINE.NEXTVAL INTO n FROM DUAL;
         IF (p_genred = 'M') THEN
             INSERT INTO Discipline_1@dbl_etupre
-            VALUES(n, p_nomd, p_typed, p_genred, p_cds);
+            VALUES(n, p_nomd, p_typed, p_cds);
         ELSIF(p_genred='W') THEN
             INSERT INTO Discipline_2@dbl_etusec
-            VALUES(n, p_nomd, p_typed, p_genred, p_cds);
+            VALUES(n, p_nomd, p_typed, p_cds);
         ELSIF(p_genred IN ('X', 'O')) THEN
             INSERT INTO Discipline_3@dbl_etuter
             VALUES(n, p_nomd, p_typed, p_genred, p_cds);
@@ -58,8 +58,8 @@ CREATE OR REPLACE PACKAGE BODY Gestion_JO_Rep IS
         WHEN OTHERS THEN    
             DBMS_OUTPUT.PUT_LINE(SQLERRM); -- Autres erreurs
     END AjouterDiscipline;
-END Gest_JO;
+END Gestion_JO_Rep;
 /
 
 SET SERVEROUTPUT ON;
-EXEC Gest_JO.AjouterDiscipline('Sauter très haut', 'P', 'M', 'ATH');
+EXEC Gestion_JO_Rep.AjouterDiscipline('Sauter très haut', 'P', 'M', 'ATH');
