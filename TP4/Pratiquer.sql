@@ -21,6 +21,7 @@ BEGIN
         END IF;
     END IF;
 
+    -- Gestion des SUPPRESSIONS
     IF (DELETING) THEN
         IF (genred = 'M') THEN
             DELETE FROM Pratiquer_1@dbl_etupre
@@ -34,6 +35,7 @@ BEGIN
         END IF;
     END IF;
 
+    -- Gestion des MISE A JOUR
     IF (UPDATING) THEN
         IF (genred = 'M') THEN
             UPDATE Pratiquer_1@dbl_etupre
