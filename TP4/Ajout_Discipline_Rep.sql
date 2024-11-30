@@ -61,5 +61,14 @@ CREATE OR REPLACE PACKAGE BODY Gestion_JO_Rep IS
 END Gestion_JO_Rep;
 /
 
+-- Sur la site ETUPRE
 SET SERVEROUTPUT ON;
-EXEC Gestion_JO_Rep.AjouterDiscipline('Sauter très haut', 'P', 'M', 'ATH');
+EXEC Gestion_JO_Rep.AjouterDiscipline('Sauter tres haut', 'P', 'M', 'ATH');
+
+-- Sur la site ETUSEC
+SET SERVEROUTPUT ON;
+EXEC Gestion_JO_Rep.AjouterDiscipline('Courir vite', 'P', 'W', 'ARC');
+
+-- Sur la site ETUTER
+SET SERVEROUTPUT ON;
+EXEC Gestion_JO_Rep.AjouterDiscipline('Cogner tres fort', 'P', 'X', 'BOX');
